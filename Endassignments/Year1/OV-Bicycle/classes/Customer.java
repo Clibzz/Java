@@ -27,13 +27,14 @@ public class Customer {
         this.debt = debt;
     }
 
-    public void rentBicycle(Bicycle bicycle) {
+    public void rentBicycle(Bicycle bicycle) throws IsBorrowedException {
         if (!bicycle.isBorrowed()) {
             bicycle.setStartTime(LocalDateTime.now());
             bicycle.setBorrowed(true);
             bicycle.setPaid(false);
+        } else {
+            throw new IsBorrowedException();
         }
-
     }
 
     public void handInBicycle(Bicycle bicycle, double distance) throws IsNotBorrowedException {
