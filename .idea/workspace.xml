@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76954dd3-fd1d-40f0-a3e4-14909ccc08a2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Endassignments/Year1/OV-Bicycle/classes/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Endassignments/Year1/OV-Bicycle/classes/Bicycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Endassignments/Year1/OV-Bicycle/classes/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/Endassignments/Year1/OV-Bicycle/classes/Company.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Endassignments/Year1/OV-Bicycle/classes/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Endassignments/Year1/OV-Bicycle/classes/Customer.java" afterDir="false" />
-    </list>
+    <list default="true" id="76954dd3-fd1d-40f0-a3e4-14909ccc08a2" name="Changes" comment="Added an exception for when a customer has no debt, moved the payDebt method to the company class" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +34,14 @@
       <option name="presentableId" value="Default" />
       <updated>1675244375732</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added an exception for when a customer has no debt, moved the payDebt method to the company class">
+      <created>1675769179408</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675769179408</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -51,5 +54,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added an exception for when a customer has no debt, moved the payDebt method to the company class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added an exception for when a customer has no debt, moved the payDebt method to the company class" />
   </component>
 </project>
