@@ -31,7 +31,6 @@ public class Customer {
         if (!bicycle.isBorrowed()) {
             bicycle.setStartTime(LocalDateTime.now());
             bicycle.setBorrowed(true);
-            bicycle.setPaid(false);
         } else {
             throw new IsBorrowedException();
         }
@@ -45,13 +44,6 @@ public class Customer {
             bicycle.setBorrowed(false);
         } else {
             throw new IsNotBorrowedException();
-        }
-    }
-
-    public void payDebt(Bicycle bicycle) {
-        if (this.debt > 0.00) {
-            bicycle.setPaid(true);
-            this.debt = 0.00;
         }
     }
 }

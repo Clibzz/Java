@@ -6,13 +6,11 @@ public class Bicycle {
     private double pricePerKm;
     private LocalDateTime startTime;
     private boolean isBorrowed;
-    private boolean isPaid;
 
     public Bicycle(String brand, double pricePerKm) {
         this.brand = brand;
         this.pricePerKm = pricePerKm;
         this.isBorrowed = false;
-        this.isPaid = true;
     }
 
     public String getBrand() {
@@ -53,13 +51,5 @@ public class Bicycle {
 
     public void setBorrowed(boolean borrowed) {
         this.isBorrowed = borrowed;
-    }
-
-    public boolean isPaid() {
-        return this.isPaid;
-    }
-
-    public void setPaid(boolean paid) {
-        this.isPaid = paid;
     }
 }

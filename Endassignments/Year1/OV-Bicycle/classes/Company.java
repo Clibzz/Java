@@ -37,4 +37,12 @@ public class Company {
         }
         return totalDistance;
     }
+
+    public void payDebt(Customer customer) throws NoDebtException {
+        if (customer.getDebt() > 0.00) {
+            customer.setDebt(0.00);
+        } else {
+            throw new NoDebtException();
+        }
+    }
 }
